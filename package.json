@@ -1,0 +1,26 @@
+{
+  "name": "loggly-blog-node-os-monitor",
+  "version": "1.0.0",
+  "description": "Supporting files for Loggly's article on using os-monitor with loggly",
+  "main": "os-monitor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macdaddy/loggly-blog-node-os-monitor.git"
+  },
+  "keywords": [
+    "os",
+    "monitor",
+    "loggly",
+    "system"
+  ],
+  "author": "David Christian Liedle <david.liedle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macdaddy/loggly-blog-node-os-monitor/issues"
+  },
+  "homepage": "https://github.com/macdaddy/loggly-blog-node-os-monitor#readme",
+  "dependencies": {
+    "loggly": "^1.0.8",
+    "os-monitor": "^1.0.4"
+  }
+}
