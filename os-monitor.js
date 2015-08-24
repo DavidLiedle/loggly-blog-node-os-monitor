@@ -5,6 +5,9 @@
  * @link   http://davidcanhelp.me/
  * @link   https://www.loggly.com/
  *
+ * This file's original home is: https://github.com/macdaddy/loggly-blog-node-os-monitor
+ * Released under the MIT license, content CC-BY (attribution)
+ *
  */
 
 var loggly  = require('loggly'),
