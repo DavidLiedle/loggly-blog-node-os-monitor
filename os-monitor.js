@@ -25,7 +25,7 @@ monitor.start({
   freemem:   0.2 // will alert when free memory left is under 20% of total memory
 });
 
-// defining event handler
+// define our event handler
 var handler = function(event) {
  
   // here, add optional data to event object
@@ -64,3 +64,5 @@ monitor.on('data', function( buf ){
   client.log(event);
 
 });
+
+console.log("os-monitor.js is now running...");
